@@ -1,0 +1,74 @@
+/* This is my first style sheet */
+
+/* Page styles */
+
+html {
+    background-image:url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div {
+    background-color: antiquewhite;
+    border-radius: 25px;
+    border-width: 25px;
+    width: 600px;
+    margin: 20px auto;
+    padding: 30px 100px;
+ }
+
+.html {
+    border: 2px solid #3c3c3c;
+}
+
+.css {
+    border: 2px solid #0170ba;
+}
+
+.java {
+    border: 2px solid #e6c72f;
+}
+
+/* Text styles */
+h1 {
+    text-align: center;
+    color: antiquewhite;
+    text-shadow: 2px 2px black;
+}
+
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    font-variant: small-caps;
+}
+
+p, ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    letter-spacing: .25px;
+}
+
+/* Section headers */
+.tutorial {
+    font-size: 8pt;
+}
+
+/* Link styles */
+a {
+    color: #0000cc;
+    text-decoration: none;
+    font-size: 14pt; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+}
